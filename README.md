@@ -50,23 +50,25 @@ Olist is a Brazilian e-commerce platform, and this dataset covers orders placed 
 
 **5. Building the dashboard.** The result is a 5-tab Tableau dashboard connected directly to the cleaned CSVs:
 
-Overview: KPI tiles (revenue, orders, AOV) plus the monthly revenue trend
-Categories: top categories by revenue and a revenue-vs-volume comparison
-Regional: a choropleth map of revenue by state
-Operations: delivery delay distribution and on-time vs. late split
-Customers & Reviews: repeat vs. one-time customers, and how review scores track with delivery delay
+- **Overview** — KPI tiles (revenue, orders, AOV) plus the monthly revenue trend
+- **Categories** — top categories by revenue and a revenue-vs-volume comparison
+- **Regional** — a choropleth map of revenue by state
+- **Operations** — delivery delay distribution and on-time vs. late split
+- **Customers & Reviews** — repeat vs. one-time customers, and how review scores track with delivery delay
 
 **6. Writing it up.** Findings live in a standalone EDA report, and the business-facing takeaways and recommendations are in a separate executive summary, so someone can read either without needing the other.
 
 ## What I found
 
+| Metric | Value |
+|---|---|
+| Total Delivered Orders | 96,478 |
+| Total Revenue | R$13,221,498.11 |
+| Average Order Value | R$137.04 |
+| Repeat Customer Rate | 3.00% |
+| Average Delivery Time | ~12 days |
+| Late Delivery Rate | 6.77% |
 
- Total Delivered Orders: 96,478
- Total Revenue: R$13,221,498.11
- Average Order Value: R$137.04
- Repeat Customer Rate: 3.00%
- Average Delivery Time: ~12 days
- Late Delivery Rate: 6.77%
 
 A few things stood out along the way: a clear Black Friday revenue spike on Nov 24, 2017; Sao Paulo pulling in roughly 2.9x the revenue of the next-highest state; the `computers` category punching well above its weight on average order value despite low volume; and a real, measurable relationship between delivery delays and how customers rate their orders (correlation: -0.327).
 
