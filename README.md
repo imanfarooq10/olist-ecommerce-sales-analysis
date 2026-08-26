@@ -1,4 +1,4 @@
-# E-Commerce Sales Analysis — Brazilian E-Commerce Public Dataset by Olist
+# Olist E-Commerce Analytics: Sales, Customer & Delivery Insights
 
 An end-to-end analytics project digging into customer behavior, sales performance, product trends, regional patterns, and delivery efficiency, built on the [Olist Brazilian E-Commerce Public Dataset](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce).
 
